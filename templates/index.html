@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </head>
+  <body>
+<nav class="navbar ">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">
+      <img src="https://raw.githubusercontent.com/nlei1/hdag-project/main/envision.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
+  </div>
+    <div class="navbar-end">
+
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" target="_blank" href="https://data.boston.gov/dataset/vision-zero-crash-records">
+              <span>
+                Data Source
+              </span>
+            </a>
+
+          </p>
+          <p class="control">
+            <a class="button is-primary" href="https://apricot-sphere-6f2.notion.site/Boston-Accident-Data-Analysis-a10d3f6e11674a4e9c850bed5f694cfb">
+{#              <span class="icon">#}
+{#                <i class="fa fa-download"></i>#}
+{#              </span>#}
+              <span>Project Blog</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Boston Accidents Data Analysis
+      </h1>
+      <h2 class="subtitle">
+        ML Daily Accident Count Predictor
+      </h2>
+    </div>
+  </div>
+</section>
+<div class="container is-max-desktop">
+  <div class="is-primary">
+
+<section class="section">
+
+	<form action="/submit" method='POST'>
+
+        <div class="field">
+          <label class="label" for="day">Day</label>
+          <div class="control">
+            <input class="input" type="number" name="day">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" for="month">Month</label>
+          <div class="control">
+            <input class="input" type="number" name="month">
+          </div>
+        </div>
+
+		<p>
+			<label class="label for="year">Year</label>
+			<input class="input" type="number" name="year">
+		</p>
+        <br>
+		<p>
+			<label class="label for="day_of_week">Day of the week</label>
+			<input class="input" type="number" name="day_of_week">
+		</p>
+        <br>
+        <p>
+			<label class="label for="wind_speed">Wind Speed</label>
+			<input class="input" type="number" name="wind_speed">
+		</p>
+        <br>
+		<p>
+			<label class="label for="precipitation">Precipitation</label>
+			<input class="input" type="number" name="precipitation">
+		</p>
+        <br>
+		<p>
+			<label class="label for="snow">Snow</label>
+			<input class="input" type="number" name="snow">
+		</p>
+        <br>
+		<p>
+			<label class="label for="temp_avg">Temp (avg)</label>
+			<input class="input" type="number" name="temp_avg">
+		</p>
+        <br>
+        <p>
+			<label class="label for="temp_max">Temp (max)</label>
+			<input class="input" type="number" name="temp_max">
+        </p>
+        <br>
+        <p>
+			<label class="label for="temp_min">Temp (min)</label>
+			<input class="input" type="number" name="temp_min">
+		</p>
+        <br>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit">Submit</button>
+          </div>
+        </div>
+
+  </form>
+
+</section>
+
+  </div>
+  </div>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Envisioning Vision Zero: Analyzing Boston Accidents Data </strong>
+        <br>
+        <p>Nina Lei & Kushal Chattopadhyay | HDAG Summer Fellowship 2021</p>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
