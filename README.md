@@ -113,11 +113,6 @@ After training the model, we made it into a simple Flask API, as shown in a vide
 
 [Boston%20Accident%20Data%20Analysis%2068749c773c224bb6b048a3c2d268665b/zoom_1.mp4](Boston%20Accident%20Data%20Analysis%2068749c773c224bb6b048a3c2d268665b/zoom_1.mp4)
 
-For more info on our project and Flask web app, please check out the repos below! 😄
-
-[GitHub - nlei1/evisioning-vision-0](https://github.com/nlei1/evisioning-vision-0)
-
-[hdag-project/HDAGFellowship.ipynb at main · nlei1/hdag-project](https://github.com/nlei1/hdag-project/blob/main/HDAGFellowship.ipynb)
 
 ## Next Steps
 
