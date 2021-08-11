@@ -115,7 +115,7 @@ After training the model, we made it into a simple Flask API, as shown in a vide
 
 
 ## Next Steps
-
+0. Data: Group by combination of 3 columns (date, rough time, neighborhood; eg "01/01/2019, morning, neighborhood") rather than only grouping by date and counting num occurance... (this way, user can also enter time and neighborhood(s) and get better predictions instead of general daily count things)
 1. Modelling: Fine tune existing ML model.
 2. Incorporation of geospatial data: Geohash longitude and latitude data; create geospatial ML model.
 3. Development of Web Application: Utilize weather APIs to get current weather related info automatically and integrate with Twilio to provide warnings if expected accident count is high (define what is high) in geohashed zones at certain time.
